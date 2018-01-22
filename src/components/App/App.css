@@ -1,0 +1,155 @@
+.center { text-align: center; }
+
+/* GENERIC */
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-image: url("../../assets/bg-heder-profile.jpg");
+  background-repeat: no-repeat, repeat;
+  background-attachment: unset;
+  background-position-x: 50%;
+  background-position-y: 75%;
+  height: 200px;
+  padding: 20px;
+  color: white;
+}
+
+nav {
+  margin: 20px;
+  background-color: white;
+  min-height: 30px;
+  max-height: 1280px;
+  margin: auto;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  float: left;
+  width: 25%;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+h1 {
+  text-align: left;
+  width: 100%;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-sections {
+  /*min-height: 200px;*/
+  height: auto;
+  background-color: darkgoldenrod;
+  color: black;
+  padding: 20px;
+}
+
+.sectionContainer{
+  width: 100%;
+  /*border: solid black 1px;*/
+  clear: both;
+  min-height: 250px;
+}
+
+.left-arrow, .right-arrow, .slider {
+  float: left;
+}
+
+.left-arrow, .right-arrow {
+  width: 5%;
+  margin-top: 65px; 
+}
+
+.flecha_izquierda, .flecha_derecha {
+  cursor: pointer;
+}
+
+.flecha_izquierda {
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-right: 30px solid black;
+}
+  
+.flecha_derecha {
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 30px solid black;
+}
+
+.slider {
+  width: 90%;
+}
+
+.App-actions {
+  min-height: 50px;
+  padding-top: 20px;
+  background-color: aqua;
+}
+
+.li-nodecoration {
+  list-style: none;
+  line-height: 30px !important;
+  display: block;
+  width: 100%;
+  min-height: 200px;
+}
+
+.li-nodecoration-basic {
+  list-style: none;
+  line-height: 25px !important;
+  display: block;
+  width: 100%;
+}
+
+.li-nodecoration a, .li-nodecoration-basic a  {
+  text-decoration: none;
+  font-weight: bold;
+  color:white;
+}
+
+.item-image, .item-info {
+  float: left;
+}
+
+.item-image {
+  width: 25%;
+}
+
+.item-image img {
+  width: 150px;
+}
+
+.item-info{
+  text-align: left;
+  width: 75%;
+
+}
+
+.item-info-basic {
+  float: left;
+  width: 50%;
+}
